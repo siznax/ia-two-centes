@@ -1,0 +1,618 @@
+<!doctype html>
+<html>
+  <head>
+    <title>$0.02</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+       rel="stylesheet"
+       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+       crossorigin="anonymous">
+    <script
+       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+       crossorigin="anonymous"></script>
+    <script
+       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+       crossorigin="anonymous"></script>
+    <script
+       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+       crossorigin="anonymous"></script>
+    <style>
+      div#footer a { text-decoration: none; color:white; }
+    </style>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+      <div class="row justify-content-md-center bg-light border-bottom">
+        <div class="col-auto">
+          <img class="img-fluid m-0 p-0" src="https://archive.org/images/internet-archive-banner-black-logo.png">
+          <div class="text-center mb-2">
+            <b><big>Universal Access to All Knowledge</big></b><br>
+            <a href="/web">web</a> &bull;
+            <a href="/texts">books</a> &bull;
+            <a href="/audio">music</a> &bull;
+            <a href="/movies">movies</a> &bull;
+            <a href="/details/image">images</a> &bull;
+            <a href="/software">games</a>
+          </div>
+          <div class="text-center mb-3" id="contents">
+            <small>
+              <a href="https://blog.archive.org/">NEWS</a> &bull;
+              <a href="#collections">COLLECTIONS</a> &bull;
+              <a href="#services">SERVICES</a> &bull;
+              <a href="#education">EDUCATION</a> &bull;
+              <a href="#picks">PICKS</a> &bull;
+              <a href="#incoming">INCOMING</a> &bull;
+              <a href="https://store.archive.org/">STORE</a> &bull;
+              <a href="https://help.archive.org/hc/en-us">HELP</a> &bull;
+              <a href="#contact">CONTACT</a>
+            </small>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col-md-3 text-center p-4">
+          <div>Upcoming Events</div>
+          <p>
+            <b class="text-nowrap">2 Nov 2019</b> <a href="https://foresight.org/vision-weekend-2019/">Foresight Weekend</a> &#x1F3AB;
+            <b class="text-nowrap">9 Nov 2019</b> <a href="https://www.aaronswartzday.org/">Aaron Swartz Hackathon</a> &#x1F3AB;
+            <b class="text-nowrap">15 Jan 2020</b> <a href="https://creativecommons.org/public-domain-reopening/">Celebrate NEW Public Domain works</a> &#x1F3AB;
+          </p>
+          <div>Recent Events</div>
+          <p>
+            <small>
+            <b>23 Oct 2019</b> <a href="https://blog.archive.org/2019/10/06/claim-your-passport-to-knowledge-at-the-world-night-market/">Annual Bash: World Night Market</a> &bull;
+            <b>15 Jan 2019</b> <a href="https://creativecommons.org/public-domain-reopening/">Grand Re-Opening of the Public Domain</a>
+            </small>
+          </p>
+          <p>
+            <a href="https://www.facebook.com/internetnetarchive/">Facebook</a> &bull;
+            <a href="https://www.instagram.com/internetarchive/">Instagram</a> &bull;
+            <a href="https://www.twitter.com/internetarchive">Twitter</a>
+          </p>
+          <div>
+            <a role="button" class="btn btn-sm btn-primary" href="https://archive.org/about/volunteerpositions.php">&#x1F60A; Volunteer</a>
+          </div>
+        </div>
+        <div class="col-md-6 p-4">
+          <div class="mb-4">
+            <form>
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-lg">&#x1F50E;</span>
+              </div>
+              <input
+                 type="text" class="form-control"
+                 aria-label="Large" aria-describedby="inputGroup-sizing-sm"
+                 placeholder="Search archive.org">
+              <button type="button" class="btn btn-lg btn-success ml-2">Search</button>
+            </div>
+            </form>
+          </div>
+          <div class="rounded alert-success p-4">
+            <form>
+              <div class="text-center mb-4">
+                <big>
+                  &#x1F3DB; INTERNET ARCHIVE<br>
+                  Patron #1234567890
+                </big>
+              </div>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Name</span>
+                </div>
+                <input type="text" class="form-control" placeholder="First Last" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-4">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Email</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Email address" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary">Get a FREE library card</button> 
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-3 p-4">
+          <a role="button" class="btn btn-lg btn-danger btn-block" href="https://archive.org/donate/">♥ DONATE</a>
+          <a role="button" class="btn btn-lg btn-primary btn-block" href="https://archive.org/create/">Upload</a>
+          <a role="button" class="btn btn-sm btn-success btn-block" href="https://web.archive.org/">Save Page Now</a>
+          <a role="button" class="btn btn-sm btn-success btn-block" href="https://openlibrary.org/sponsorship">Sponsor A Book</a>
+          <a role="button" class="btn btn-sm btn-warning btn-block" href="https://bit.ly/archive-tester">Join the Legion of Testers</a>
+          <a role="button" class="btn btn-sm btn-info btn-block" href="https://dweb.archive.org">Build a Distributed Web (DWeb)</a>
+          <a role="button" class="btn btn-sm btn-info btn-block" href="https://controlleddigitallending.org/">Use Controlled Digital Lending</a>
+        </div>
+      </div>
+
+      <a name="collections"></a>
+
+      <!-- <div class="row justify-content-md-center"> -->
+      <!--   <div class="col-auto mt-3"> -->
+      <!--     <h1 class="text-muted">Collections</h1> -->
+      <!--   </div> -->
+      <!-- </div> -->
+      
+      <div class="row justify-content-md-center px-2">
+        <div class="col-md border rounded bg-light m-2 p-3">
+          <b><big><a href="/web">&#x1F52E; Wayback Machine</a></big></b>
+          <div class="mb-2">380B+ web pages</div>
+          <p class="info">
+            The Web Archive of the Internet Archive started in late 1996, is made available through the Wayback Machine, and some collections are available in bulk to researchers. Many pages are archived by the Internet Archive for other contributors including partners of Archive-IT, and Save Page Now users. Other captures are donated to the Internet Archive by other partners such as Alexa Internet.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-3">
+          <b><big><a href="/texts">&#x1F4DA; Books</a></big></b>
+          <div class="mb-2">21M+ books</div>
+          <p class="info">
+            The Internet Archive offers over 20,000,000 freely downloadable books and texts. There is also a collection of 1 million modern eBooks that may be borrowed by anyone with a free archive.org account.
+            Books on Internet Archive are offered in many formats, including DAISY files intended for print disabled people.  In addition to the collections here, print disabled people may access a large collection of modern books provided as encrypted DAISY files on OpenLibrary.org.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-3">
+          <b><big><a href="/audio">&#x1F3A7; Music</a></big></b>
+          <div class="mb-2">1M+ hours of audio</div>
+          <p class="info">
+            This library contains recordings ranging from alternative news programming, to Grateful Dead concerts, to Old Time Radio shows, to book and poetry readings, to original music uploaded by our users. Many of these audios and MP3s are available for free download. Check our FAQ for more information.
+          </p>
+        </div>
+      </div>
+      
+      <div class="row justify-content-md-center px-2">
+        <div class="col-md border rounded bg-light m-2 p-3">
+          <b><big><a href="/movies">&#x1F4FD; Movies</a></big></b>
+          <div class="mb-2">1M+ hours of movies</div>
+          <p class="info">
+            This library contains digital movies uploaded by Archive users which range from classic full-length films, to daily alternative news broadcasts, to cartoons and concerts. Many of these videos are available for free download. Check our FAQ for more information.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-3">
+          <b><big><a href="/software">&#x1F579; Games</a></big></b>
+          <div class="mb-2">100K+ software titles</div>
+          <p class="info">
+            The Internet Archive Software Collection is the largest vintage and historical software library in the world, providing instant access to millions of programs, CD-ROM images, documentation and multimedia.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b><big><a href="https://archive.org/details/newspapers">&#x1F4F0; Newspapers</a></big></b>
+          <div class="mb-2">250K+ newspapers</div>
+          <p class="info">
+            The newspapers in this collection have been scanned as part of a pilot project using microfilm and microfiche. After using a microfilm/fiche scanner to create a digital image of each page, we process the resulting images so that each reel is contained in a single item with easily navigable files.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center px-2">
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b><big><a href="https://archive.org/details/magazine_rack">&#x1F3DE; Magazines</a></big></b>
+          <div class="mb-2">10K+ magazines</div>
+          <p class="info">
+            The Magazine Rack is a collection of digitized magazines and monthly publications.</small>
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b><big><a href="https://archive.org/details/publicresourceorg">&#x2696; Public Resources</a></big></b>
+          <div class="mb-2">100M+ public documents</div>
+          <p class="info">
+            We make national, state, and local government documents available to the public online.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b><big><a href="https://archive.org/details/maps_usgs">&#x1F5FA; Maps</a></big></b>
+          <div class="mb-2">1M+ maps</div>
+          <p class="info">We make historical maps available to the public online.</p>
+        </div>
+      </div>
+
+      <a name="services">
+      
+      <div class="row justify-content-md-center">
+        <div class="col-auto mt-3">
+          <h2>Services</h2>
+        </div>
+      </div>
+      
+      <div class="row justify-content-md-center px-2">
+        <div class="col-md rounded alert-success m-2 p-2">
+          <b><big><a href="https://archive-it.org/">Archive-It</a></big></b>
+          <div class="mb-2">250+ partners</div>
+          <p class="info">
+            First deployed in 2006, Archive-It is a subscription web archiving service that helps organizations to harvest, build, and preserve collections of digital content. Through the user friendly web application Archive-It partners can collect, catalog, and manage their collections of archived content with 24/7 access and full text search available for their use as well as their patrons. Content is hosted and stored at the Internet Archive data centers. Over 240 partner organizations in 46 U.S. states and 15 countries currently use Archive-It, including state archives and libraries, university libraries, federal institutions, museums, NGOs and public libraries.
+          </p>
+        </div>
+        <div class="col-md rounded alert-success m-2 p-2">
+          <b><big><a href="https://openlibrary.org/">&#x1F4D6; Open Library</a></big></b>
+          <div class="mb-2">4M+ book pages</div>
+          <p class="info">
+            OpenLibrary.org is comprised of two great parts! A free, digital lending library of over 2 million eBooks that can be read in a browser or downloaded for reading off-line. And, a unique project to build one web page for every book ever published. Over 20 million books already have a page on OpenLibrary.org
+            Please participate in the building of this site. It is an Open project - the software is open, the data is open, the documentation is open, and the site is open.
+          </p>
+        </div>
+      </div>
+      
+      <div class="row justify-content-md-center px-2">
+        <div class="col-md rounded alert-success m-2 p-2">
+          <b><big><a href="https://archive.org/details/tv">&#x1F4FA; Political TV Ad Archive</a></big></b>
+          <div class="mb-2">5M+ political ads</div>
+          <p class="info">
+            The Political TV Ad Archive is a project that provides a searchable, viewable, and shareable online archive of 2016 political TV ads, married with fact-checking and reporting citizens can trust. In partnership with trusted journalism organizations, the archive provides a free service for journalists, civic organizations, academics and the general public to track these ads in context.
+          </p>
+        </div>
+        <div class="col-md rounded alert-success m-2 p-2">
+          <b><big><a href="https://archive.org/details/printdisabled">&#x267F; Print-Disabled Books</a></big></b>
+          <div class="mb-2">2M+ accessible books</div>
+          <p class="info">
+            Free Books for the Print-Disabled! If you have a disability that interferes with reading printed text then all of these books can be instantaneously available in your browser or via protected download.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center px-2">
+        <div class="col-md rounded alert-success m-2 p-2">
+          <b><big><a href="https://archive.org/scanning">&#x1F4F8; Scanning Services</a></big></b>
+          <div class="mb-2">50M+ items scanned</div>
+          <p class="info">
+            Internet Archive can digitize your collections and provide open and free access, long-term storage, unlimited downloads, and lifetime file management. Internet Archive has scanned more than 600 million pages with partners ranging from the Library of Congress and the Smithsonian to New York Public Library, Harvard, and MIT. Contact info@archive.org if you are interested in having your collection digitized.
+          </p>
+        </div>
+        <div class="col-md rounded alert-success m-2 p-2">
+          <b><big><a href="https://archive.org/web/sflan.php">&#x1F4E1; Community Wireless</a></big></b>
+          <div class="mb-2">1K+ homes connected</div>
+          <p class="info">
+            Internet Archive's Community Networking project provides free, high speed wired and wireless Internet to residents of San Francisco. The project has evolved greatly since its inception in 1997, and currently works with the City and County of San Francisco to provide free, high speed internet to low income San Francisco residents. We are intersted in providing the same to other communities. If you are interested, please contact info@archive.org
+          </p>
+        </div>
+      </div>
+
+      <a name="education">
+
+      <div class="row justify-content-md-center">
+        <div class="col-auto mt-3">
+          <h2>Education</h2>
+        </div>
+      </div>
+      
+      <div class="row justify-content-md-center px-2">
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b><a href="https://archive.org/details/education">&#x1F393; Open Courses</a></b>
+          <p class="info">
+            Welcome to the Archive’s library of Open Educational Resources and university lectures. This library contains hundreds of free courses, video lectures, and supplemental materials from universities in the United States and China. Many of these lectures are available for download.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b><a href="https://archive.org/details/bannedbooks">&#x1F6AB; Banned Books</a></b>
+          <p class="info">
+            The Internet Archive maintains of list of freely available texts to read or borrow that have been banned from many libraries.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b>👩🏽 Feminist Archive</b>
+          <p class="info">
+            Welcome to the Feminist Archive. Then here we'll say something meaningful about the collection and why it is useful and to whom.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b>&#x1F5FF; Indigenous People's Archive</b>
+          <p class="info">
+            Welcome to the Indigenous People's Archive. Then here we'll say something meaningful about the collection and why it is useful and to whom.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center px-2">
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b><a href="https://archive.org/search.php?query=black%20lives%20matter">✊🏾 Black Lives Matter</a></b>
+          <p class="info">
+            Welcome to the Black Lives Matter Archive. Then here we'll say something meaningful about the collection and why it is useful and to whom.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b><a href="https://queer.archive.work/">🏳️‍🌈 Queer Archive</a></b>
+          <p class="info">
+            Welcome to the Queer Archive. Then here we'll say something meaningful about the collection and why it is useful and to whom.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b>🇺🇸 Refugee Archive</b>
+          <p class="info">
+            Welcome to the Refugee Archive. Then here we'll say something meaningful about the collection and why it is useful and to whom.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b>&#x1F54A; Prison Archives</b>
+          <p class="info">
+            Welcome to the Prison Archive. Then here we'll say something meaningful about the collection and why it is useful and to whom.
+          </p>
+        </div>
+      </div>
+      
+      <a name="picks">
+
+      <div class="row justify-content-md-center">
+        <div class="col-auto mt-3">
+          <h2>Staff Picks</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col-md rounded alert-warning m-2 p-2">
+          <b><big><a href="https://archive.org/details/radio-archive">&#x1F4FB; Radio Archive</a></big></b>
+          <p class="info">
+            Radio programs recorded from Internet and over the air. Some items in this collection have access restrictions.
+          </p>
+        </div>
+        <div class="col-md rounded alert-warning m-2 p-2">
+          <b><big><a href="https://archive.org/details/78rpm">&#x1F5DD; The Great 78 Project</a></big></b>
+          <p class="info">
+            Listen to this collection of 78rpm records and cylinder recordings released in the early 20th century. These recordings were contributed to the Archive by users through the Open Source Audio collection. Also the Internet Archive has digitized many.
+          </p>
+        </div>
+        <div class="col-md rounded alert-warning m-2 p-2">
+          <b><big><a href="https://archive.org/details/internetarcade">&#x1F47E; Internet Arcade</a></big></b>
+          <p class="info">
+            The Internet Arcade is a web-based library of arcade (coin-operated) video games from the 1970s through to the 1990s, emulated in JSMAME, part of the JSMESS software package.
+            Containing hundreds of games ranging through many different genres and styles, the Arcade provides research, comparison, and entertainment in the realm of the Video Game Arcade.
+          </p>
+        </div>
+        <div class="col-md rounded alert-warning m-2 p-2">
+          <b><big><a href="https://archive.org/details/prelinger">&#x1F4FD; Prelinger Archives</a></big></b>
+          <p class="info">
+            The Prelinger Archives is a collection of films relating to U.S. cultural history, the evolution of the American landscape, everyday life, and social history. It was in New York City from 1982 to 2002 and is now in San Francisco.
+          </p>
+        </div>
+      </div>
+      
+      <div class="row justify-content-md-center">
+        <div class="col-md rounded alert-warning m-2 p-2">
+          <b><big><a href="https://archive.org/details/etree">&#x1F999; Live Music Archive</a></big></b>
+          <p class="info">
+            The Live Music Archive is a community committed to providing the highest quality live concerts in a lossless, downloadable format, along with the convenience of on-demand streaming. In 2002, the Internet Archive teamed up with etree.org to create the Live Music Archive in order to preserve and archive as many live concerts as possible for current and future generations to enjoy.
+          </p>
+        </div>
+        <div class="col-md rounded alert-warning m-2 p-2">
+          <b><big><a href="https://archive.org/details/911">&#x1F692; Understanding 9/11</a></big></b>
+          <p class="info">
+            The Understanding 9/11 TV News Collection is just one of thousands of items in the Internet Archive Moving Images collection of free movies, films, and videos ranging from classic full-length films, to daily alternative news broadcasts, to cartoons and more.
+          </p>
+        </div>
+        <div class="col-md rounded alert-warning m-2 p-2">
+          <b><big><a href="https://archive.org/details/pulpmagazinearchive">🧟‍♀️ Pulp Magazine Archive</a></big></b>
+          <p class="info">
+            Many issues of this collection come from a variety of anonymous contributors, as well as sites such as The Pulp Magazines Project and ThePulp.net
+          </p>
+        </div>
+        <div class="col-md rounded alert-warning m-2 p-2">
+          <b><big><a href="https://archive.org/details/iacl">&#x1F6B8; Children's Library</a></big></b>
+          <p class="info">
+            Books for children from around the world. From University of California Libraries: the University of Florida's "Literature for Children" Collection, the National Yiddish Book Center, the New York Public Library, International Children's Digital Library, and other libraries.
+          </p>
+        </div>
+      </div>
+      
+      <a name="incoming">
+      
+      <div class="row justify-content-md-center">
+        <div class="col-auto mt-3">
+         <h3>Incoming Media</h3>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center px-2">
+        <div class="col rounded alert-success m-2 p-2">
+          <p><b>Digitial Donations</b><br>We would love to host your digital materials for free, forever! You can use our <a href="/upload" class="badge badge-primary">Upload</a> button to easily upload a small number of items. To upload a large number of items, you can use our python library: <a href="https://archive.org/services/docs/api/internetarchive/">internetarchive</a> on GitHub. If you have a "big data" contribution, then please contact us at info@archive.org.</p>
+        </div>
+        <div class="col rounded alert-success m-2 p-2">
+          <p><b>Physical Donations</b><br>Please send physical donations (old media, books, etc.) to our physical archives in Richmond, California. Our shipping address is: Physical Archive, 2512 Florida Avenue, Richmond, CA 94804.</p>
+        </div>
+     </div>
+
+      <div class="row justify-content-md-center px-2">
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b>&#x23FA; 78 rpm records</b>
+          <div class="mb-2">100K+ 78s</div>
+          <p class="info">
+            Listen to this collection of 78rpm records and cylinder recordings released in the early 20th century. These recordings were contributed to the Archive by users through the Open Source Audio collection. Also the Internet Archive has digitized many.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b>&#x23FA; Vinyl LP records</b>
+          <div class="mb-2">100K+ LPs</div>
+          <p class="info">
+            This is a collection of digitized versions of 33 1/3 rpm vinyl long playing records (microgroove recordings).
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b>&#x1F4BF; Compact Discs</b>
+          <div class="mb-2">100K+ CDs</div>
+          <p class="info">
+            This is an experimental collection of music that is not yet available for public release.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b>&#x1F39E; Microfilm</b>
+          <div class="mb-2">0 items</div>
+          <p class="info">
+            Coming soon!
+          </p>
+        </div>
+      </div>
+
+      <a name="engineering">
+      
+      <div class="row justify-content-md-center">
+        <div class="col-auto mt-3">
+          <h2>Engineering</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center px-2">
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b>Archive APIs</b>
+          <p><a href="https://archive.org/services/docs/api/">Internet Archive APIs</a> allow you to create items, read and edit metadata using our command-line tools or python library. Upload files using our S3-like interface, and track changes with our Changes API. Manage item tasks with our Tasks and SimpleLists APIs.</p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b>Open Source</b>
+          <p>If you are a programmer, please consider contributing to our active and growing family of <a href="https://github.com/internetarchive?tab=repositories">open source projects</a>, including:
+            <a href="https://github.com/internetarchive/bookreader">BookReader</a>,
+            <a href="https://github.com/internetarchive/bookserver">BookServer</a>,
+            <a href="https://github.com/internetarchive/brozzler">Brozzler</a>,
+            <a href="https://github.com/internetarchive/draintasker">Draintasker</a>,
+            <a href="https://github.com/internetarchive/dweb-transport">Dweb Transport</a>,
+            <a href="https://github.com/internetarchive/heritrix3">Heritrix3</a>,
+            <a href="https://github.com/internetarchive/iaux">IA UX</a>,
+            <a href="https://github.com/internetarchive/warcprox">Warcprox</a>,
+            <a href="https://github.com/internetarchive/warctools">WarcTools</a>,
+            <a href="https://github.com/internetarchive/wayback">Wayback</a>,
+            <a href="https://github.com/internetarchive/wayback-diff">WaybackDiff</a>,
+            <a href="https://github.com/internetarchive/wayback-machine-chrome">Wayback Chrome extension</a>,
+            <a href="https://github.com/internetarchive/wayback-machine-firefox">Wayback Firefox extension</a>,
+            <a href="https://github.com/internetarchive/wayback-machine-ios">Wayback iOS App</a>,
+            and more.
+          </p>
+        </div>
+        <div class="col-md border rounded bg-light m-2 p-2">
+          <b>ArchiveLab</b>
+          <p>
+            <a href="https://archivelab.org/">Archive Lab</a> is a volunteer community which incubates open-access, public-good initiatives.
+            Check out <a href="https://experiments.archivelab.org/">Experiments</a>, our showcase of community made experiments built with data and services from Archive.org.
+          </p>
+        </div>
+      </div>
+
+      <a name="sponsors">
+      
+      <div class="row justify-content-md-center">
+        <div class="col-auto mt-3">
+          <h2>Sponsors & Partners</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col-auto p-4">
+          <p class="text-center">
+            Alfred P. Sloan Foundation &bull;
+            American Press Institute &bull;
+            Andrew W. Mellon Foundation  &bull;
+            Boston Public Library &bull;
+            Council on Library and Information Resources &bull;
+            Creative Commons &bull;
+            Democracy Fund  &bull;
+            Electronic Frontier Foundation &bull;
+            Federal Communications Commission Universal Service Program for Schools and Libraries (E-Rate)  &bull;
+            Harvard University &bull;
+            Institute of Museum and Library Services (IMLS)  &bull;
+            John S. and James L. Knight Foundation &bull;
+            Knight Foundation &bull;
+            Laura and John Arnold Foundation
+            Library of Congress &bull;
+            Massachusetts Institute of Technology &bull;
+            Microsoft Corporation &bull;
+            National Endowment for the Humanities, Office of Digital Humanities &bull;
+            National Science Foundation &bull;
+            New York Public Library &bull;
+            Rita Allen Foundation &bull;
+            San Francisco Public Library &bull;
+            The City and County of San Francisco &bull;
+            The Democracy Fund &bull;
+            The Hewlett Foundation &bull;
+            The Peter and Carmen Lucia Buck Foundation &bull;
+            The Philadelphia Foundation &bull;
+            The Smithsonian Institution &bull;
+            Wikimedia Foundation
+          </p>
+        </div>
+      </div>
+      
+      <a name="contact">
+      
+      <div class="row justify-content-lg-center mt-4 p-4 bg-secondary text-light" id="footer">
+        <div class="col-md p-2">
+          <div class="bg-white rounded p-1" style="float:left;margin-right:16px;">
+            <a href="https://www.ala.org"><img alt="Member of the American Library Association" src="http://www.ala.org/aboutala/sites/ala.org.aboutala/files/content/contactus/rights/files/ala_ID_websafe.jpg" width="64"></a>
+            <div class="text-center"><small class="text-dark">MEMBER</small></div>
+          </div>
+          <p>
+            The Internet Archive, a 501(c)(3) non-profit, is building a digital library of Internet sites and other cultural artifacts in digital form. Like a paper library, we provide free access to researchers, historians, scholars, the print disabled, and the general public. Our mission is to provide <b>Universal Access to All Knowledge</b>.
+          </p>
+          <p>
+            <a role="button" class="btn btn-sm btn-danger" href="https://archive.org/donate/">♥ DONATE</a>
+          </p>
+        </div>
+        <div class="col-md p-2">
+          <p>
+            <b>Location</b>
+            <br>300 Funston Avenue
+            <br>San Francisco, CA 94118
+          </p>
+            <iframe
+               style="border-radius: 8px"
+               width="240" height="300" frameborder="0" scrolling="no"
+               marginheight="0" marginwidth="0"
+               src="https://www.openstreetmap.org/export/embed.html?bbox=-122.56642833352092%2C37.68603744325658%2C-122.37657085061076%2C37.878961727638824&amp;layer=mapnik&amp;marker=37.78256253175622%2C-122.47149959206581">
+            </iframe>
+        </div>
+        <div class="col-md p-2">
+          <p>
+            <b>Hours</b><br>Free tours every Friday at 1:00pm.
+            Our lobby is open to the public 9:00am-4:50pm Mon-Fri.
+            Open online 24 hours a day, every day.
+          </p>
+          <p>
+            <b>Shipping & Recieving</b>
+            <br>Physical Archive
+            <br>2512 Florida Avenue
+            <br>Richmond, CA 94804
+          </p>
+          <p>
+            <b>Social Media</b><br>
+            <img alt="Facebook" src="https://image.flaticon.com/icons/svg/174/174848.svg" width="16" class="mr-2">
+            <a href="https://www.facebook.com/internetnetarchive/">internetarchive</a><br>
+            <img alt="Instagram" src="https://image.flaticon.com/icons/svg/174/174855.svg" width="16" class="mr-2">
+            <a href="https://www.instagram.com/internetarchive/">@internetarchive</a><br>
+            <img alt="Twitter" src="https://image.flaticon.com/icons/svg/174/174876.svg" width="16" class="mr-2">
+            <a href="https://www.twitter.com/internetarchive">@internetarchive</a>
+          </p>
+        </div>
+        <div class="col-md p-2">
+          <p>
+          <b>Contact</b>
+          <br>&#x1F4E7; info@archive.org
+          <br>☎️  +1 (415) 561-6767
+          <br>&#x1F4E0; (415) 840-0391
+          <p>
+          <p>&#x1F6A9; <a href="mailto:info@archive.org">Report a problem</a></p>
+          <form>
+            <div class="form-group form-group">
+              <label class="mb-1" for="newsletterEmail">Newsletter</label>
+              <input type="email" class="form-control form-control-sm mb-2" id="newsletterEmail" aria-describedby="emailHelp" placeholder="Enter email">
+              <button type="submit" class="btn btn-sm btn-primary">Subscribe</button>
+            </div>
+          </form>
+          </p>
+          <p>
+          <a href="https://archive.org/services/docs/api/">API</a>
+          <br><a href="https://help.archive.org/hc/en-us">Help Center</a>
+          <br><a href="https://archive.org/about/volunteerpositions.php">Volunteer</a>
+          <br><a href="https://store.archive.org/">Store</a>
+          <br><a href="https://archive.org/about/bios.php">Staff</a>
+          <br><a href="https://archive.org/about/jobs.php">Jobs</a>
+          <br><a href="https://blog.archive.org">Blog</a>
+          <br><a href="https://archive.org/feeds">Feeds</a>
+          <br><a href="https://archive.org/iathreads/forum-display.php?forum=news">Press</a>
+          <br><a href="https://archive.org/about/terms.php">Terms</a>
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
